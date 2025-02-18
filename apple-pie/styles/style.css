@@ -25,7 +25,7 @@ h1 {
 display:flex;
 height: 500px;
 width: 100vw;
-background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+background-image: url("/images/apple-pie.jpg");
 background-position: center;
 background-size: cover;
 font-family: "Helvetica", sans-serif;
@@ -70,8 +70,8 @@ ul{
 }
 
 ol{
-  list-style-type: none;
-  counter-reset: list-counter;
+  list-style-type: ")";
+  /* counter-reset: list-counter;
   padding: 20px;
 }
 
@@ -80,7 +80,7 @@ ol li{
 }
 
 ol li::before {
-  content: counter(list-counter) ") "; /* Adds numbers with ')' */
+  content: counter(list-counter) ") "; Adds numbers with ')' */
 }
 
 .recipe-text {
